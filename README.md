@@ -25,7 +25,7 @@ This challenge helped on writing semantic HTML. Ensuring which HTML elements are
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://justzaid.github.io/Frontend-Mentor---Build-a-Recipe-Page/)
 
 ## My process
 
