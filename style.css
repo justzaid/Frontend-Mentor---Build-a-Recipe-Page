@@ -1,0 +1,288 @@
+/* Design properties for Mobile screens */
+@media screen and (max-width: 800px) {
+    /* Body properties */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Fonts */
+    .young-serif-h1 {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(24, 5%, 18%);
+        font-size: 30px;
+        text-align: left;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .body-contents {
+        padding: 0px 30px 0px 30px
+    }
+
+    .outfit-font-p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+    }
+
+    /* Prep Card Styling */
+    .preparationCard {
+        border-radius: 10px;
+        padding: 1px 0px 3px 20px;
+        background-color: hsla(332, 93%, 68%, 0.063);
+    }
+
+    .preparationCard>h3 {
+        color: hsl(332, 51%, 32%);
+    }
+
+    .preparationCard>ul>li {
+        padding: 0px 0px 10px 10px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: hsl(24, 5%, 18%);
+    }
+
+    .preparationCard>ul>li::marker {
+        color: hsl(332, 51%, 32%);
+    }
+
+    .preparationCard>ul>li>span {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: hsl(30, 10%, 34%);
+        font-weight: bold;
+    }
+
+    .outfit-font-h {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+    /* Ingredients List Styling*/
+    .young-serif-h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    }
+
+    .ingredientsList>li {
+        padding: 0px 0px 10px 20px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: hsl(24, 5%, 18%);
+    }
+
+    .ingredientsList>li::marker {
+        color: hsl(332, 51%, 32%);
+    }
+
+    .strong {
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+    margin-right: 4px;
+    }
+
+    /* Instructions list Styling */
+    .instructionList>li {
+        padding-left: 15px;
+        color: hsl(24, 5%, 18%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .instructionList>li::marker {
+        font-weight: bold;
+        color: hsl(332, 51%, 32%);
+    }
+
+    .instructionContainer {
+        margin-bottom: 30px;
+    }
+
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    tr {
+        border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
+    }
+
+    td {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: hsl(30, 10%, 34%);
+        padding: 20px 0px 20px 20px;
+        font-weight: normal;
+    }
+
+    span {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+    }
+
+    .attribution {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+/* Design properties for Desktop screens */
+@media screen and (min-width: 771px) {
+
+/* Body properties */
+body {
+    background-color: #F3E5D8;
+    padding: 40px;
+}
+
+.body-container {
+    border-radius: 10px;
+    background-color: white;
+    max-width: 47%;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.body-container>img {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Fonts */
+.young-serif-h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(24, 5%, 18%);
+}
+
+.young-serif-h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+}
+
+.outfit-font-p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: hsl(24, 5%, 18%);
+  font-size: 16px;
+}
+
+.outfit-font-h {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Prep Card Styling */
+.preparationCard {
+    border-radius: 10px;
+    padding: 1px 0px 3px 20px;
+    background-color: hsla(332, 93%, 68%, 0.063);
+}
+
+.preparationCard>h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparationCard>ul>li {
+    padding: 0px 0px 10px 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+}
+
+.preparationCard>ul>li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+/* Ingredients List Styling*/
+.ingredientsList>li {
+    padding: 0px 0px 10px 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+}
+
+.ingredientsList>li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+/* Instructions list Styling */
+.instructionList>li {
+    padding-left: 20px;
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.instructionList>li::marker {
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+}
+
+.instructionContainer {
+    margin-bottom: 30px;
+}
+
+.strong {
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+    margin-right: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
+}
+
+td {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+    padding: 20px 0px 20px 20px;
+    font-weight: normal;
+}
+
+span {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution {
+    margin-top: 50px;
+}
+
+}
