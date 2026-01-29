@@ -20,7 +20,7 @@ This challenge helped on writing semantic HTML. Ensuring which HTML elements are
 
 ### Screenshot
 
-![Omlette Image](image-1.png)
+![Omlette Image](./assets/images/image-1.png)
 
 
 ### Links
